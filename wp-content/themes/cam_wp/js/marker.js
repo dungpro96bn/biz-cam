@@ -1,0 +1,1 @@
+$(window).on('load',function(){$(window).scroll(function(){$('.marker').each(function(){var POS=$(this).offset().top;var scroll=$(window).scrollTop();var windowHeight=$(window).height();if(scroll>POS-windowHeight+windowHeight/5){$(this).addClass('fire')}else{$(this).removeClass('fire')}})})})

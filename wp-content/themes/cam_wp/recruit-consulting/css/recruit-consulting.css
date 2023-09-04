@@ -1,0 +1,797 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,100px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,100px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+/* dung dể quy định thời gian cho keyframes ở trên */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+/* body {
+    display: none;
+} */
+.js-fadein {
+    opacity: 0;
+}
+
+.scroll-in {
+    opacity: 1;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+#recruit-consulting img {
+    width: auto;
+    display: inline-block;
+}
+
+
+#recruit-consulting {
+    font-family: 'Yu Gothic';
+    color: black;
+}
+
+#recruit-consulting .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#recruit-consulting body {
+    background: white;
+}
+#recruit-consulting a {
+    text-decoration: none;
+    color: white;
+}
+#recruit-consulting .info-item:hover  img{ 
+    opacity: 0.6;
+}
+#recruit-consulting   .banner-main {
+    position: relative;
+}
+
+
+#recruit-consulting .inner {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px
+}
+
+
+
+#recruit-consulting  .img-width{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;  
+}
+#recruit-consulting .tab-item img {
+    width: auto;
+    height: auto;
+}
+
+
+#recruit-consulting  .img-slider {
+    width: 100%;
+}
+#recruit-consulting .mobi {
+    display: none;
+}
+
+
+/* banner */
+#recruit-consulting .banner-main {
+    position: relative;
+}
+#recruit-consulting .title-main{
+    position: absolute;
+    top: 34%;
+    text-align: center;
+    color: black;
+    width: 100%;
+    
+}
+#recruit-consulting .title-main .big-text{ 
+    font-size: 42px;
+    display: block;
+    margin-bottom: 10px;
+	font-weight:600
+}
+#recruit-consulting .title-main .sub {
+    font-size: 20px;
+    display: block;
+	font-weight:600
+} 
+
+#recruit-consulting  .content-main  {
+    padding: 31px 0px 40px;
+}
+/* service*/ 
+
+#recruit-consulting .title-bock {
+    font-size: 26px;
+    color: #538EB4;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+
+#recruit-consulting .text-block {
+    font-size: 16px;
+   line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 47px;
+}
+
+
+#recruit-consulting  .ul-list {
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+#recruit-consulting   .list-item {
+    width: calc(50%);
+}
+
+#recruit-consulting  .list-item .dt-item {
+    position: relative;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+}
+#recruit-consulting   .list-item .dt-item::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/recruit-consulting_check.svg);
+    left: 0px;
+    top: 8px;
+    width: 20px;
+    height: 19px;
+}
+
+/* tab */
+
+#recruit-consulting .content-main  .list-tab {
+    padding-top: 53px;
+    padding-bottom: 30px;
+
+}
+
+#recruit-consulting .content-main   .box-tab {
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid #CACACA;
+    padding: 25px 0px 0px 0px;
+}
+
+#recruit-consulting .content-main   .tab-item.active::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/icon_arrow.png);
+    bottom: -3px;
+    left: 50%;
+    width: 39px;
+    height: 33px;
+    transform: translateX(-50%);
+}
+#recruit-consulting .content-main   .tab-item {
+    cursor: pointer;
+    width: calc(100%/4 - 2px);
+    position: relative;
+    border-top: 4px solid #6C6C6C;
+    padding: 30px 25px 25px 25px;
+}
+#recruit-consulting .content-main   .tab-item.active {
+    border-top: 4px solid #64C9E5;
+    background: rgba(100,201, 229, 0.1);
+}
+
+#recruit-consulting .content-main  .tab-item.active .number {
+    background: #64C9E5;
+}
+#recruit-consulting .content-main   .tab-item.active::after {
+  display: none;
+}
+
+#recruit-consulting .content-main  .tab-item::after {
+    position: absolute;
+    content: "";
+    background: #F4F4F4;
+    width: 2px;
+    height: calc(100% - 5px);
+    top:0px;
+    right: 0px;
+}
+
+
+#recruit-consulting .content-main   .tab-item:nth-child(4){
+    margin-right:0;
+}
+#recruit-consulting .content-main   .box-tab .tab-img {
+   text-align: center;
+   margin-bottom: 10px;
+}
+#recruit-consulting .content-main   .tab-text .title-tab {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#recruit-consulting .content-main  .tab-text .content-tab {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 5px;
+}
+#recruit-consulting .content-main   .tab-item .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #707070;
+    font-size: 24px;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding-top: 3px;
+}
+
+#recruit-consulting .content-main   .tab-item .arrow{
+    position: absolute;
+    top: 41%;
+    right: -13px;
+    z-index: 99;
+}
+
+
+/* content*/
+#recruit-consulting  .content {
+    display: none;
+}
+#recruit-consulting  .content.open {
+    display: block
+}
+#recruit-consulting .list-content {
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #F4F4F4;
+}
+#recruit-consulting .list-content .item-flow {
+    width: calc(50% - 20px);
+    margin-bottom: 51px;
+}
+
+#recruit-consulting .list-content .item-flow .top {
+    text-align: center;
+    background: #548EB3;
+    padding: 50px 0px 22px;
+    margin-bottom: 25px;
+}
+
+#recruit-consulting .list-content .item-flow .top .bocx-icon {
+    margin-bottom: 20px;
+}
+
+
+#recruit-consulting .list-content .item-flow .top .title-flow {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+#recruit-consulting .list-content .item-flow .text-flow{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#recruit-consulting .title-toogle {
+    display: none;
+}
+#recruit-consulting .br_sp {
+    display: none;
+}
+
+
+/* <!-- advise --> */
+
+#recruit-consulting .title-advise {
+    font-size: 26px;
+    color: #538EB4;
+    font-weight: 600;
+    padding-bottom: 8px;
+/*     border-bottom: 4px solid #FEDA2A; */
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 560px;
+    margin: auto;
+    margin-bottom: 62px;
+    margin-top: 70px;
+	position:relative
+}
+#recruit-consulting .title-advise:after {
+	position:absolute;
+	content:"";
+	background:#FEDA2A;
+    border-radius: 3px;
+    bottom: -4px;
+    left: 0px;
+	height:4px;
+	width:100%
+}
+#recruit-consulting .box-black {
+    background-image: url(../images/bg_black.png);
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+
+#recruit-consulting .box-advise .list-advise{
+    max-width: 720px;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 95px;
+}
+#recruit-consulting .box-advise .list-advise::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/arrow_advise.png);
+    height: 49px;
+    width: 92px;
+    left: 50%;
+    bottom: -35px ;
+    transform: translateX(-50%);
+}
+#recruit-consulting .box-advise .list-advise .item-advise {
+     width: calc(100%/3 - 0px);
+    text-align: center;
+    margin-bottom: 68px;
+}
+#recruit-consulting .box-advise .list-advise .item-advise .bocx-icon {
+    margin-bottom: 15px;
+}
+
+#recruit-consulting .box-advise .list-advise .text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#recruit-consulting .box-advise .box-yellow {
+    background: #FEDA2A;
+    border-radius: 50px;
+    padding: 18px 0px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+
+#recruit-consulting .box-advise .box-yellow .big-text {
+    font-size: 26px;
+    color: black;
+    display: block;
+	font-weight:600
+}
+#recruit-consulting .box-advise .box-yellow .sub {
+    font-size: 16px;
+    color: black;
+    display: block;
+	font-weight:600
+}
+
+/* <!-- to handle --> */
+
+#recruit-consulting .box-handle .title-handle {
+    font-size: 26px;
+    color: #538EB4;
+    font-weight: 600;
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 30px;
+    letter-spacing: normal;
+}
+#recruit-consulting .box-handle .item-handle {
+    margin-bottom: 50px;
+}
+#recruit-consulting .box-handle .title-handle::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/recruit-consulting_title.svg);
+    left: 0px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 30px;
+}
+
+#recruit-consulting .box-handle .note-handle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight:500
+}
+
+#recruit-consulting .box-handle .box-list {
+    background: #F4F4F4;
+    margin: 25px 0 0;
+    padding: 32px 0px 35px 32px;
+    border-radius: 12px;
+}
+
+
+#recruit-consulting .box-handle .box-list  .dt-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+#recruit-consulting .box-handle .box-list .dt-item::after {
+    top:2px
+}
+
+#recruit-consulting .mobi {
+    display: none;
+}
+#recruit-consulting .br_pc {
+    display: block
+}
+#recruit-consulting .box-handle .note-handle.last {
+    margin-top: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #recruit-consulting .mobi {
+        display: block;
+    }
+    #recruit-consulting .inner {
+        padding: 0px 15px;
+    }
+    #recruit-consulting .banner-main {
+        height: 160px;
+    }
+    #recruit-consulting .banner-main-img {
+        height: 160px;
+    }
+    #recruit-consulting .br_sp {
+        display: block;
+    }
+    #recruit-consulting .br_pc {
+        display: none;
+    }
+    #recruit-consulting .title-main {
+        top: 24%;
+		font-weight: 600;
+    }
+    #recruit-consulting .title-main .big-text{ 
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    #recruit-consulting .title-main .sub {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #recruit-consulting  .content {
+        display: block !important;
+    }
+
+    #recruit-consulting .item-flow img {
+        width: 80px;
+    }
+ 
+    #recruit-consulting .title-toogle {
+        display: block;
+    }
+    #recruit-consulting .content-main .list-tab {
+        display: none;
+    }
+    #recruit-consulting .content-main .content-item {
+        display: none;
+    }
+    #recruit-consulting .content-main .tab-item {
+        width: 100%;
+        padding: 25px 25px 10px 10px;
+    }
+    #recruit-consulting .flow {
+        margin-top: 60px;
+    }
+    #recruit-consulting .content-main {
+        padding: 12px 0px 40px;
+    }
+    #recruit-consulting .title-bock {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    #recruit-consulting .text-block {
+        margin-bottom: 25px;
+    }
+    #recruit-consulting .list-item {
+        width: 100%;
+    }
+    #recruit-consulting .list-item .dt-item {
+        padding-left: 30px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    #recruit-consulting .title-toogle { 
+        position: relative;
+        padding: 35px 10px 20px 15px;
+        border-top: 4px solid #6C6C6C;
+        height: 195px;
+    }
+    #recruit-consulting .title-toogle.active { 
+        border-top: 4px solid #64C9E5;
+        background: rgba(100,201, 229, 0.1);
+        border-bottom: 2px solid #CACACA;
+    }
+
+    #recruit-consulting .title-toogle.active::before {
+        position: absolute;
+        content: "";
+        background-image: url(../images/icon_arrow.png);
+        bottom: -3px;
+        left: 50%;
+        width: 39px;
+        height: 33px;
+        transform: translateX(-50%);
+    }
+    #recruit-consulting .title-toogle .number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        position: absolute;
+        top: -26px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #707070;
+        font-size: 24px;
+        font-family: 'League Spartan', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    #recruit-consulting .title-toogle.active .number {
+        background: #64C9E5;
+    }
+    #recruit-consulting .title-toogle::after {
+        position: absolute;
+        content: "";
+        background-image: url(../images/icon_hidden.png);
+        top: 27%;
+        right: -5px;
+        width: 80px;
+        height: 80px;
+        transform: scale(0.5);
+    }
+    #recruit-consulting .title-toogle.active::after {
+        background-image: url(../images/icon_open.png);
+    }
+
+    #recruit-consulting .list-content .item-flow {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #recruit-consulting .list-content .item-flow .top {
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px 10px 10px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #recruit-consulting .list-content .item-flow .top .bocx-icon {
+        margin-bottom: 0px;
+        width: 130px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    #recruit-consulting .content-main .tab-text .title-tab {
+        text-align: left;
+        margin-bottom: 13px;
+    }
+    #recruit-consulting .content-main .tab-text .content-tab {
+        font-size: 14px;
+        line-height: 21px;
+        padding-left: 0px;
+    }
+    #recruit-consulting .list-content .item-flow .text-flow {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    #recruit-consulting .linkmore {
+        width: 200px;
+        height: 50px;
+        border: 1.5px solid black;
+        text-align:center;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0px auto 75px;
+        color: black;
+        padding-top: 10px;
+    }
+    #recruit-consulting .list-content {
+        border-bottom:none
+    }
+    #recruit-consulting .title-toogle.four {
+        border-bottom: 2px solid #F4F4F4;
+    }
+    #recruit-consulting .title-toogle .number {
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+        top: -31px;
+    }
+    #recruit-consulting .title-advise {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 42px;
+        max-width: 268px;
+    }
+    #recruit-consulting .box-black {
+        height: 85px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        padding-top: 27px;
+        background-image: url(../images/bg_black_sp.png);
+    }
+    #recruit-consulting .box-advise .list-advise .item-advise {
+        width: calc(100%/2 - 0px);
+        margin-bottom: 10px;
+    }
+    #recruit-consulting .box-advise .list-advise .item-advise .bocx-icon img{
+        width: 120px;
+    }
+    #recruit-consulting .box-advise .list-advise .item-advise .bocx-icon {
+        margin-bottom: 12px;
+    }
+
+    #recruit-consulting .box-advise .list-advise::after {
+        bottom: -75px;
+    }
+    #recruit-consulting .box-advise .box-yellow .big-text {
+        font-size: 20px;
+    }
+    #recruit-consulting .box-advise .box-yellow .sub {
+        font-size: 14px;
+    }
+    #recruit-consulting .box-advise .box-yellow {
+        margin-bottom: 60px;
+        border-radius: 50px;
+        padding: 12px 0px;
+    }
+    #recruit-consulting .box-advise .list-advise {
+        margin-bottom: 110px;
+    }
+    #recruit-consulting .box-handle .title-handle {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 33px;
+        margin-bottom: 10px;
+    }
+    #recruit-consulting .box-handle .title-handle::after {
+        transform: scale(0.8);    
+        top: 0px;
+    }
+    #recruit-consulting .box-handle .note-handle {
+        padding-left: 33px;
+    }
+
+    #recruit-consulting .box-handle .box-list {
+        margin: 20px 0 0;
+        padding: 25px 10px 15px 20px;
+        border-radius: 12px;
+        margin-left: 33px;
+    }
+
+    #recruit-consulting .box-handle .item-handle {
+        margin-bottom: 58px;
+    }
+
+    #recruit-consulting .box-handle .note-handle.last {
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+.fadeIn{opacity:0;transition:2s}.fadeIn.is-show{opacity:1}.fadeIn_up{opacity:0;transform:translate(0,50%);transition:.5s}.fadeIn_up.is-show{transform:translate(0,0);opacity:1}.spin{transition:.6s;transform:rotateX(270deg);-webkit-transform:rotateX(270deg)}.spin.is-show{transform:rotateX(360deg);-webkit-transform:rotateX(360deg)}

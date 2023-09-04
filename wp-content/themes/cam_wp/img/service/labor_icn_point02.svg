@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120.183" height="98.058" viewBox="0 0 120.183 98.058">
+  <g id="グループ_10860" data-name="グループ 10860" transform="translate(-281.844 -1401.503)">
+    <path id="Icon_awesome-yen-sign" data-name="Icon awesome-yen-sign" d="M60.715,0h-12a2.205,2.205,0,0,0-1.985,1.231l-10.18,20.8c-2.665,6.377-4.98,13.212-4.98,13.212h-.239s-2.315-6.836-4.98-13.212l-10.18-20.8A2.205,2.205,0,0,0,14.187,0H2.206A2.2,2.2,0,0,0,.258,3.234L14.977,30.872H4.264a2.212,2.212,0,0,0-2.205,2.205v5.88a2.212,2.212,0,0,0,2.205,2.205c.072.422,54.213.243,54.393,0a2.212,2.212,0,0,0,2.205-2.205v-5.88a2.212,2.212,0,0,0-2.205-2.205H47.944L62.663,3.234A2.2,2.2,0,0,0,60.715,0Z" transform="matrix(0.985, -0.174, 0.174, 0.985, 281.844, 1412.431)" fill="#ffda2b"/>
+    <path id="Icon_awesome-yen-sign-2" data-name="Icon awesome-yen-sign" d="M21.594,36.61l3.638,6.836V48.37H5.386a2.212,2.212,0,0,0-2.205,2.205v5.88a2.212,2.212,0,0,0,2.205,2.205H25.232V75.567a2.212,2.212,0,0,0,2.205,2.205h10.29a2.212,2.212,0,0,0,2.205-2.205V58.661H59.779a2.212,2.212,0,0,0,2.205-2.205v-5.88a2.212,2.212,0,0,0-2.205-2.205H39.933V43.445l3.638-6.836Z" transform="translate(303.675 1421.789)" fill="#ffda2b"/>
+    <g id="Icon_feather-scissors" data-name="Icon feather-scissors" transform="translate(404.026 1460.939) rotate(180)">
+      <path id="パス_5312" data-name="パス 5312" d="M16.453,10.477A5.977,5.977,0,1,1,10.477,4.5,5.977,5.977,0,0,1,16.453,10.477Z" transform="translate(0 0)" fill="none" stroke="#ffda2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="パス_5313" data-name="パス 5313" d="M16.453,28.477A5.977,5.977,0,1,1,10.477,22.5,5.977,5.977,0,0,1,16.453,28.477Z" transform="translate(0 5.907)" fill="none" stroke="#ffda2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="パス_5314" data-name="パス 5314" d="M35.848,6,12.18,29.668" transform="translate(2.52 0.492)" fill="none" stroke="#ffda2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="パス_5315" data-name="パス 5315" d="M21.7,21.72l11.017,11" transform="translate(5.646 5.651)" fill="none" stroke="#ffda2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="パス_5316" data-name="パス 5316" d="M12.18,12.18l7.73,7.73" transform="translate(2.52 2.52)" fill="none" stroke="#ffda2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
