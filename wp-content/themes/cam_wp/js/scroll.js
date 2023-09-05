@@ -12,3 +12,17 @@ $(function () {
 		$(this).parents(".popup").removeClass('is-open');
 	});
 });
+
+
+$(function () {
+	$('.service-action').click(function (event) {
+		event.preventDefault();
+		$("#top .serviceBlock-content").removeClass("active");
+		$("#top .serviceList-content .serviceItem a").removeClass("active");
+		var url = $(this).attr('href');
+		var dest = url.split('#');
+		var target = dest[1];
+		$(this).addClass("active");
+		$('#' + target).addClass('active');
+	});
+});
