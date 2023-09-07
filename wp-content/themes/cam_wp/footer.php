@@ -51,10 +51,10 @@
         <div class="footer_menu pc">
             <ul>
                 <li>サービス</li>
-                <li><a href="<?php echo get_bloginfo('url'); ?>/hr/">HR・テッククラウド</a></li>
-                <li><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/">代行・委託サービス</a></li>
-                <li><a href="<?php echo get_bloginfo('url'); ?>/global/">海外人材サービス</a></li>
-                <li><a href="<?php echo get_bloginfo('url'); ?>/training/">研修プログラム</a></li>
+                <li><a href="<?php echo get_bloginfo('url'); ?>/hr/">HRテクノロジー</a></li>
+                <li><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/">代行・BPO</a></li>
+                <li><a href="<?php echo get_bloginfo('url'); ?>/global/">海外人材ソリューションズ</a></li>
+                <li><a href="<?php echo get_bloginfo('url'); ?>/training/">採用支援・教育</a></li>
                 </ul>
 <!--             <ul>
                 <li><a href="<?php echo get_bloginfo('url'); ?>/case/">導入事例</a></li>

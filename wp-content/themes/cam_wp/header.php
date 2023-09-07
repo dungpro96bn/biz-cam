@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <ul class="header__menu">
         <li class="mega__menu"><a href="javascript:void(0)">サービス<span class="fas fa-chevron-down"></span></a>
           <ul class="mega__menu-second">
-            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/hr/">HRテック・クラウド</a>
+            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/hr/">HRテクノロジー</a>
               <ul class="mega__menu-third">
                 <li><a href="https://goodjob.ca-m.co.jp/" target="_blank">派遣管理クラウド「グッジョブ」</a>
                   <figure class="nav_bnr"><a href="https://goodjob.ca-m.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/bnr_nav_gjob.svg" alt="ハケン(派遣)マネジメントクラウド グッジョブ"></a>
@@ -67,7 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="<?php echo get_bloginfo('url'); ?>/hr/crossnavi/">雇用管理「CROSSNAVI」</a></li>
               </ul>
             </li>
-            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/">代行・委託サービス</a>
+            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/">代行・BPO</a>
               <ul class="mega__menu-third">
                 <li><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/payroll/">給与計算／保険手続代行</a></li>
                 <!--li><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/zyuminzei/">特別微収住民税年次更新データ作成代行</a></li-->
@@ -79,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="<?php echo get_bloginfo('url'); ?>/outsourcing/outplace/">再就職支援</a></li>
               </ul>
             </li>
-            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/global/">海外人材サービス</a>
+            <li class="title_second"><a href="<?php echo get_bloginfo('url'); ?>/global/">海外人材ソリューションズ</a>
               <ul class="mega__menu-third">
                 <li>
                   <a href="https://gms.ca-m.co.jp/" target="_blank">海外人材マネジメントGMS</a>
@@ -92,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				  <li><a href="https://minnano-tokugi.com/" target="_blank">特定技能求人マッチングサイト<br/>「みんなのトクギ」</a></li>
               </ul>
             </li>
-            <li class="title_second"><a href="/training/">研修プログラム</a>
+            <li class="title_second"><a href="/training/">採用支援・教育</a>
               <ul class="mega__menu-third">
                 <li><a href="https://cam-training.jp/" target="_blank">キャムテック企業研修</a></li>
                 <li><a href="<?php echo get_bloginfo('url'); ?>/training/lqp/">評価・教育ツール「LQプログラム」</a></li>

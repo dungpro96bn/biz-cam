@@ -131,7 +131,7 @@
                     </div>
                     <ul class="servicePost-list">
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://goodjob.ca-m.co.jp/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img01_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img01_pc.png" alt="">
@@ -143,7 +143,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/hr/t-rex/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img02_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img02_pc.png" alt="">
@@ -155,7 +155,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/hr/o2/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img03_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img03_pc.png" alt="">
@@ -167,7 +167,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/hr/crossnavi/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img04_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_hr_img04_pc.png" alt="">
@@ -200,7 +200,7 @@
                     </div>
                     <ul class="servicePost-list">
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://camtech-ea.net/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img01_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img01_pc.png" alt="">
@@ -224,7 +224,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://sendinginstnavi.asia/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img03_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img03_pc.png" alt="">
@@ -236,7 +236,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://tra-navi.asia/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img04_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img04_pc.png" alt="">
@@ -248,7 +248,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://kaji-japan.jp/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img05_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img05_pc.png" alt="">
@@ -260,7 +260,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.edu-poke.jp/global">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img06_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img06_pc.png" alt="">
@@ -272,7 +272,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://minnano-tokugi.com/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img07_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img07_pc.png" alt="">
@@ -300,12 +300,12 @@
                         <h2 class="heading-block">採用支援・教育</h2>
                         <p class="subTtl sp-br">キャムテックの研修は、研修して終わりではなく、研修後のフォロー・効果検証まで行い、社員の「行動定着」を実現します。人は環境に左右される生き物ですので、研修で向上したマインドや知識も、元の姿に戻りがちです。そこで職場で実践いただく仕組みを導入いただくことで行動定着を促します。</p>
                         <div class="service-more">
-                            <a class="service-link" href="#">すべてを見る</a>
+                            <a class="service-link" href="/outsourcing/">すべてを見る</a>
                         </div>
                     </div>
                     <ul class="servicePost-list">
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/recruit-consulting">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_recruitment_img01_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_recruitment_img01_pc.png" alt="">
@@ -317,7 +317,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://cam-training.jp/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_recruitment_img02_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_recruitment_img02_pc.png" alt="">
@@ -329,7 +329,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://edu-poke.jp/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img06_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_global_img06_pc.png" alt="">
@@ -357,12 +357,12 @@
                         <h2 class="heading-block">代行・BPO</h2>
                         <p class="subTtl sp-br">グローバルな競争の中でよりコスト効果が求められる一方で、定型業務をいかに適正に再構築できるか。多くの企業で高まるニーズにお応えできる解決策がキャムテックの代行委託サービスです。</p>
                         <div class="service-more">
-                            <a class="service-link" href="#">すべてを見る</a>
+                            <a class="service-link" href="/training">すべてを見る</a>
                         </div>
                     </div>
                     <ul class="servicePost-list">
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/payroll/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img01_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img01_pc.png" alt="">
@@ -374,7 +374,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/roukan-nencho/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img02_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img02_pc.png" alt="">
@@ -386,7 +386,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/entrust/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img03_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img03_pc.png" alt="">
@@ -398,7 +398,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/mynumber/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img04_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img04_pc.png" alt="">
@@ -410,7 +410,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/stresscheck/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img05_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img05_pc.png" alt="">
@@ -422,7 +422,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/labor_management/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img06_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img06_pc.png" alt="">
@@ -434,7 +434,7 @@
                             </dl>
                         </li>
                         <li class="servicePost-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://biz.ca-m.co.jp/outsourcing/outplace/">
                                 <picture>
                                     <source srcset="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img07_pc.png">
                                     <img src="<?php echo get_template_directory_uri(); ?>/upgrade/images/service_bpo_img07_pc.png" alt="">
